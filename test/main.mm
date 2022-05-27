@@ -25,7 +25,7 @@
     int num;
     while (true) {
         scanf("%d", &num);
-        printf("input number = %d\n", num);
+        printf("input number =nnnnnn %d\n", num);
     }
 }
 
