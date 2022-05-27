@@ -23,7 +23,7 @@
 
 -(void) func {
     int num;
-    while (1) {
+    while (true) {
         scanf("%d", &num);
         printf("input number = %d\n", num);
     }
@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         myThread * t = [[myThread alloc] init];
         [t start];
-        while (1) {
+        while (true) {
             sleep(5);
             printf("5 second elapsed!\n");
         }
